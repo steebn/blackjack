@@ -1,0 +1,66 @@
+/* Rules for icon sizes: */
+
+body {
+  margin: 5px 5px !important;
+  background-color: #252526;
+  color: white;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.playingCards {
+  width:  calc( 70px + (200 -  70) * ((100vw - 411px) / (1900 - 411)));
+  height: calc(105px + (300 - 105) * ((100vw - 411px) / (1900 - 411)));
+}
+/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
+
+#title {
+  text-align: center;
+  font-size: calc( 23px + (40 -  23) * ((100vw - 411px) / (1900 - 411)));  
+}
+
+#gameBoard {
+  margin-top: 20px;
+  /* background-color: #076324; */
+}
+
+#textArea {
+  font-size: calc( 40px + (50 -  40) * ((100vw - 411px) / (1900 - 411)));
+  text-align: center;
+}
+
+#newGameButton {
+  font-size:16px;
+  vertical-align: middle;
+}
+
+#dealerHas, #playerHas {
+  font-weight: 500;
+  font-size: calc( 14px + (24 -  14) * ((100vw - 411px) / (1900 - 411)));
+  padding-top: calc( 10px + (50 -  10) * ((100vw - 411px) / (1900 - 411)));
+  color:white;
+}
+
+#dealerTotal, #playerTotal {
+  font-weight: 700;
+  font-size: calc( 24px + (24 -  10) * ((100vw - 411px) / (1900 - 411)));
+  color:white;
+
+}
+
+
+
